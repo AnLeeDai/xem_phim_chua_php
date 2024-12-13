@@ -1,0 +1,93 @@
+:root {
+  /* Màu chính */
+  --primary-color: #3498db;
+  --primary-hover-color: #2980b9;
+  --secondary-color: #2ecc71;
+  --secondary-hover-color: #27ae60;
+  --color-primary-active: #003f7f;
+
+  --color-primary: #1e90ff;
+  --color-primary-hover: #0056b3;
+  --color-primary-active: #003f7f;
+
+  --color-success: #28a745;
+  --color-success-hover: #218838;
+  --color-success-active: #1e7e34;
+
+  --color-warning: #f0ad4e;
+  --color-warning-hover: #ec971f;
+  --color-warning-active: #d58512;
+
+  --color-disabled: #aaa;
+
+  --color-text-dark: #333;
+  --color-text-light: #fff;
+  --color-text-muted: #666;
+
+  --color-genre: var(--color-primary);
+  --color-bg: #fff;
+
+  --transition-duration: 0.3s;
+  --transition-scale: 0.2s;
+
+  /* Màu mới bổ sung */
+  --tertiary-color: #9b59b6;
+  --tertiary-hover-color: #8e44ad;
+  --gray-light: #f2f2f2;
+  --gray-dark: #7f8c8d;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* Màu bổ sung */
+  --success-color: #28a745;
+  --success-hover-color: #218838;
+  --warning-color: #ffc107;
+  --warning-hover-color: #e0a800;
+  --error-color: #dc3545;
+  --error-hover-color: #c82333;
+  --info-color: #17a2b8;
+  --info-hover-color: #138496;
+
+  /* Outline */
+  --outline-color: #3498db;
+  --outline-warning-color: #ffc107;
+  --outline-success-color: #28a745;
+
+  /* Disabled */
+  --disabled-color: #bdbdbd;
+
+  /* Gradient */
+  --gradient-primary: linear-gradient(90deg, #3498db, #2980b9);
+  --gradient-secondary: linear-gradient(90deg, #2ecc71, #27ae60);
+  --gradient-success: linear-gradient(90deg, #28a745, #218838);
+  --gradient-warning: linear-gradient(90deg, #ffc107, #e0a800);
+  --gradient-error: linear-gradient(90deg, #dc3545, #c82333);
+  --gradient-info: linear-gradient(90deg, #17a2b8, #138496);
+  --gradient-tertiary: linear-gradient(90deg, #9b59b6, #8e44ad);
+
+  /* Kích thước */
+  --padding-small: 8px 12px;
+  --padding-medium: 12px 20px;
+  --padding-large: 16px 24px;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+  --icon-size-small: 16px;
+  --icon-size-medium: 20px;
+  --icon-size-large: 24px;
+
+  /* Border */
+  --border-radius: 8px;
+
+  /* Box-shadow */
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0 6px 10px rgba(0, 0, 0, 0.15);
+  --box-shadow-active: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Transition */
+  --transition-speed: 0.6s;
+  --transition-ease: ease-in-out;
+
+  /* Opacity */
+  --disabled-opacity: 0.6;
+}

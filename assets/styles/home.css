@@ -1,0 +1,168 @@
+/* Container chung */
+#home-container {
+  flex: 1;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+#home-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#home-header h1 {
+  font-size: 2.5em;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+#home-header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Movie Grid */
+#movie-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#movie-item {
+  background: var(--color-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform var(--transition-duration) ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#movie-item:hover {
+  transform: translateY(-10px);
+}
+
+#movie-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#movie-item h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  color: var(--color-text-dark);
+  font-weight: bold;
+}
+
+#movie-genre {
+  font-size: 1em;
+  color: var(--color-genre);
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+#movie-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+}
+
+/* Buttons */
+#btn-buy {
+  background-color: var(--color-success);
+  color: var(--color-text-light);
+}
+
+#btn-buy:hover {
+  background-color: var(--color-success-hover);
+}
+
+#btn-buy:active {
+  background-color: var(--color-success-active);
+}
+
+#btn-download {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+#btn-download:hover {
+  background-color: var(--color-primary-hover);
+}
+
+#btn-watch {
+  background-color: var(--color-warning);
+  color: var(--color-text-light);
+}
+
+#btn-disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-text-light);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Action Buttons Container */
+#action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Pagination */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  padding: 10px;
+  background-color: var(--color-bg);
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  bottom: 0;
+}
+
+#prev,
+#next {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#prev.disabled,
+#next.disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+#pages {
+  display: flex;
+  gap: 10px;
+}
+
+#page,
+#page-active {
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#page-active {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
